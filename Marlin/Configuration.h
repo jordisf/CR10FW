@@ -696,9 +696,9 @@
     //Original CR-10 config => #define DEFAULT_Ki   1.54
     //Original CR-10 config => #define DEFAULT_Kd  76.55
     /*Calculated by M303 command*/
-    #define DEFAULT_Kp 37.22
-    #define DEFAULT_Ki 4.85
-    #define DEFAULT_Kd 71.45
+    #define DEFAULT_Kp 46.04
+    #define DEFAULT_Ki 6.39
+    #define DEFAULT_Kd 82.86
   #endif
 #else
   #define BANG_MAX 255    // Limit hotend current while in bang-bang mode; 255=full current
